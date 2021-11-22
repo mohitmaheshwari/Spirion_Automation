@@ -1,0 +1,9 @@
+{
+  "ReportModel": {
+    "ReportTitle": "Spirion Automation Title",
+    "ReportPath": "\\Reports\\Spirion",
+    "ReportName": "Spirion Automation Report",
+    "ArchivePath": "\\ReportArchive\\Spirion",
+    "ArchiveType": "Archive"
+  }
+}

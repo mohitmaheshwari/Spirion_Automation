@@ -1,0 +1,42 @@
+﻿{
+  "Environments": [
+    {
+      "Browser": "Chrome",
+      "LogFile": "AutomationLogs.log",
+      "TestUrl": "https://console-web.int-spirion.com/dashboard",
+      "DeleteSearchAfterTestRun": true,
+      "DeletePlaybookAfterSuiteRun": true,
+      "BasePath": "C:\\TestData",
+      "User": {
+        "Username": "clientadmin@spirion.com",
+        "Password": "wordpass"
+      },
+      "RestrictedUser": {
+        "Username": "User1",
+        "Password": "Spir1onT3st"
+      },
+      "RemoteTarget": {
+        "MachineIP": "10.0.1.102",
+        "Username": "Spirion",
+        "Password": "Spir1onT3st",
+        "RemoteBasePath": "\\\\{0}\\C$\\TestData"
+      },
+      "LocalAgent": {
+        "MachineIP": "10.0.1.101",
+        "LocalAgentBasePath": "\\\\{0}\\C$\\TestData",
+        "MachineName": "QAPL015-1-101"
+      },
+      "Cloud": {
+        "DropBox": {
+          "UserAccount": "se.testuser1@spiriondev.com",
+          "AppKey": "7msa4vabd9dgq7z",
+          "AppSecret": "tbdarcvfi1nv5a2",
+          "AccessToken": "F6bYtCcfPE0AAAAAAAAAAVoYUkqo1jb4K6cc2Sb60gUUPwGU4tnBYtefRQ3U2LDt",
+          "AdminAccount": "SA.DropboxQA@SpirionDev.com",
+          "Password": "n_VdW&g5UwJ*",
+          "DropBoxToken": "sl.A7h1orz7NFtGeGdPM0qCl5YlRt54UuH_b-peAitwB6HJhknQS7sQ1E4NX9OBPy4T92Ntxy6YRy3lfZloyqL7aBBkaBJdMBNuVeqZ8vobT5hXtBxybzTD9Apcp5pseom9kRIJYIcpZD2o"
+        }
+      }
+    }
+  ]
+}
